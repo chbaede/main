@@ -298,3 +298,4 @@ function init() {
 
 // Launch on DOM ready
 document.addEventListener('DOMContentLoaded', init);
+

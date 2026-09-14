@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://main.yocto.co.kr/sitemap.xml

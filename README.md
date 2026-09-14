@@ -82,3 +82,4 @@ Open `js/data.js` and append an entry to the `SITES_DATA` array:
    - Add a `CNAME` record in your DNS provider:
      - **Host / Name**: `main`
      - **Target / Value**: `chbaede.github.io`
+

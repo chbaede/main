@@ -2,13 +2,91 @@
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yocto Portal — main.yocto.co.kr</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Yocto Portal — Connected Web Ecosystem</title>
   
-  <!-- Primary Meta Tags -->
+  <!-- SEO & Search Engine Optimization Meta Tags -->
   <meta name="title" content="Yocto Portal — Connected Web Ecosystem">
-  <meta name="description" content="Central directory for automotive software ecosystems, newsletters, developer utilities, and lifestyle tools.">
+  <meta name="description" content="Central hub connecting automotive software ecosystems, newsletter insights, German supermarket discount flyers, developer utilities, and daily productivity tools.">
+  <meta name="keywords" content="Automotive Software, SDV, AutoHub, Developer Tools, German Market Sales, Life Toolkit, Mobility, Yocto, Open Source">
+  <meta name="author" content="yocto.co.kr">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://main.yocto.co.kr/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://main.yocto.co.kr/">
+  <meta property="og:title" content="Yocto Portal — Connected Web Ecosystem">
+  <meta property="og:description" content="Discover specialized automotive software resources, developer utilities, supermarket discount tracking, and productivity tools.">
+  <meta property="og:image" content="https://main.yocto.co.kr/assets/favicon.svg">
+  <meta property="og:site_name" content="yocto.co.kr">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ko_KR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://main.yocto.co.kr/">
+  <meta name="twitter:title" content="Yocto Portal — Connected Web Ecosystem">
+  <meta name="twitter:description" content="Direct portal to AutoHub, Automotive Newsletter, German Market Deals, Life Toolkit, and DevTools.">
+  <meta name="twitter:image" content="https://main.yocto.co.kr/assets/favicon.svg">
+
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Structured Data (JSON-LD) for Enhanced SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Yocto Portal",
+    "url": "https://main.yocto.co.kr/",
+    "description": "Central directory for automotive software ecosystems, newsletters, developer utilities, and lifestyle tools.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://main.yocto.co.kr/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "AutoHub",
+        "url": "https://autohub.yocto.co.kr",
+        "description": "Connecting automotive software technologies, architectures, and open-source ecosystems."
+      },
+      {
+        "@type": "WebPage",
+        "name": "Automotive Newsletter",
+        "url": "https://news.yocto.co.kr",
+        "description": "Curated newsletter covering mobility tech, SDV trends, and automotive engineering."
+      },
+      {
+        "@type": "WebPage",
+        "name": "German Market Deals",
+        "url": "https://gmarket.yocto.co.kr",
+        "description": "Aggregating weekly discount flyers and supermarket bargains across Germany."
+      },
+      {
+        "@type": "WebPage",
+        "name": "Life Toolkit",
+        "url": "https://life.yocto.co.kr/",
+        "description": "Practical everyday utilities and productivity boosters."
+      },
+      {
+        "@type": "WebPage",
+        "name": "DevTools",
+        "url": "https://devtools.yocto.co.kr/",
+        "description": "Essential web utilities, formatters, converters, and debugging helpers for software engineers."
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google AdSense Script (Official Asynchronous Loader) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6854824605420161"
+       crossorigin="anonymous"></script>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -49,14 +127,14 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       
       <!-- Brand Logo & Domain -->
-      <a href="/" class="flex items-center gap-3 group focus:outline-none">
-        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
+      <a href="/" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-none select-none">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-0.5 shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform flex-shrink-0">
           <div class="w-full h-full bg-white dark:bg-slate-900 rounded-[10px] flex items-center justify-center text-indigo-600 dark:text-indigo-400">
-            <i data-lucide="compass" class="w-5 h-5"></i>
+            <i data-lucide="compass" class="w-5 h-5 sm:w-5 sm:h-5"></i>
           </div>
         </div>
         <div class="flex flex-col">
-          <span class="font-bold text-base tracking-tight text-slate-900 dark:text-white font-mono group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+          <span class="font-bold text-sm sm:text-base tracking-tight text-slate-900 dark:text-white font-mono group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
             yocto<span class="text-indigo-600 dark:text-indigo-400">.co.kr</span>
           </span>
           <span class="text-[10px] text-slate-600 dark:text-slate-300 font-medium tracking-wide uppercase">
@@ -66,27 +144,29 @@
       </a>
 
       <!-- Right Action Controls (LinkedIn + Lang Toggle + Theme Toggle) -->
-      <div class="flex items-center gap-2 sm:gap-3">
+      <div class="flex items-center gap-1.5 sm:gap-3">
         
-        <!-- LinkedIn Link (Strictly LinkedIn only, no resume/name) -->
+        <!-- LinkedIn Icon Button (Touch-optimized for Mobile & Desktop) -->
         <a 
           id="linkedin-link"
           href="https://www.linkedin.com/in/locust2001/" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="p-2 sm:px-3 sm:py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2 text-xs font-medium border border-transparent dark:border-slate-700/50"
+          class="h-9 px-2.5 sm:h-10 sm:px-3 rounded-xl bg-slate-100 hover:bg-[#0077B5]/10 dark:bg-slate-800/80 dark:hover:bg-[#0077B5]/20 text-slate-700 dark:text-slate-200 hover:text-[#0077B5] dark:hover:text-[#38a8e8] transition-all flex items-center gap-1.5 text-xs font-semibold border border-slate-200/60 dark:border-slate-700/50 shadow-sm group cursor-pointer"
           title="Connect on LinkedIn"
           aria-label="Connect on LinkedIn"
         >
-          <i data-lucide="linkedin" class="w-4 h-4 text-[#0077B5]"></i>
-          <span class="hidden sm:inline font-medium">LinkedIn</span>
+          <div class="w-4 h-4 flex items-center justify-center text-[#0077B5] dark:text-[#38a8e8] group-hover:scale-110 transition-transform">
+            <i data-lucide="linkedin" class="w-4 h-4"></i>
+          </div>
+          <span class="hidden md:inline font-medium">LinkedIn</span>
         </a>
 
         <!-- Language Toggle Button (EN <-> KO) -->
         <button 
           id="lang-toggle" 
           type="button" 
-          class="px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition-colors flex items-center gap-1.5 text-xs font-semibold font-mono border border-transparent dark:border-slate-700/50 cursor-pointer"
+          class="h-9 px-2.5 sm:h-10 sm:px-3 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition-colors flex items-center gap-1.5 text-xs font-semibold font-mono border border-slate-200/60 dark:border-slate-700/50 shadow-sm cursor-pointer"
           title="Switch Language (EN / KO)"
           aria-label="Switch Language"
         >
@@ -98,7 +178,7 @@
         <button 
           id="theme-toggle" 
           type="button" 
-          class="p-2 sm:px-3 sm:py-2 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 hover:text-amber-500 dark:hover:text-amber-400 transition-colors flex items-center gap-2 text-xs font-medium border border-transparent dark:border-slate-700/50 cursor-pointer"
+          class="h-9 px-2.5 sm:h-10 sm:px-3 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 hover:text-amber-500 dark:hover:text-amber-400 transition-colors flex items-center gap-1.5 text-xs font-medium border border-slate-200/60 dark:border-slate-700/50 shadow-sm cursor-pointer"
           title="Toggle Theme"
           aria-label="Toggle Theme"
         >
@@ -111,26 +191,26 @@
   </header>
 
   <!-- Main Content Area -->
-  <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-16 w-full">
+  <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-14 w-full">
     
     <!-- Hero Banner -->
-    <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200/70 dark:border-indigo-800/60 mb-5">
+    <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200/70 dark:border-indigo-800/60 mb-4 sm:mb-5">
         <i data-lucide="layers" class="w-3.5 h-3.5"></i>
         <span id="hero-badge">Service Directory</span>
       </div>
       
-      <h1 id="hero-title" class="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4 sm:mb-6 leading-tight">
+      <h1 id="hero-title" class="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-3 sm:mb-5 leading-tight">
         Connected Web Ecosystem
       </h1>
       
-      <p id="hero-subtitle" class="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl mx-auto">
+      <p id="hero-subtitle" class="text-sm sm:text-base lg:text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl mx-auto px-2">
         A curated directory of specialized web platforms, automotive software insights, developer utilities, and daily productivity tools.
       </p>
     </div>
 
     <!-- Search & Filter Controls -->
-    <div class="max-w-2xl mx-auto mb-8 space-y-4">
+    <div class="max-w-2xl mx-auto mb-6 sm:mb-8 space-y-3 sm:space-y-4">
       
       <!-- Live Search Bar -->
       <div class="relative">
@@ -153,11 +233,31 @@
         </button>
       </div>
 
-      <!-- Category Filter Pills -->
-      <div id="category-pills" class="flex flex-wrap justify-center gap-2 pt-1">
-        <!-- Injected via JavaScript -->
+      <!-- Category Filter Pills (Horizontal Scrollable on Mobile) -->
+      <div class="overflow-x-auto pb-1 -mx-2 px-2 sm:overflow-visible">
+        <div id="category-pills" class="flex flex-nowrap sm:flex-wrap justify-start sm:justify-center gap-2 pt-1 min-w-max sm:min-w-0">
+          <!-- Injected via JavaScript -->
+        </div>
       </div>
 
+    </div>
+
+    <!-- Google AdSense Unit #1: Strategic Mid-Placement (Clean & Contained) -->
+    <div class="max-w-4xl mx-auto mb-8">
+      <div class="ad-container rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/70 p-2 sm:p-3 shadow-sm">
+        <span class="ad-label text-slate-600 dark:text-slate-300 mb-1.5 self-start px-2">Advertisement</span>
+        <div class="w-full overflow-hidden text-center">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6854824605420161"
+               data-ad-slot="9426228178"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
     </div>
 
     <!-- Services Header & Count -->
@@ -193,10 +293,28 @@
       </button>
     </div>
 
+    <!-- Google AdSense Unit #2: Bottom Placement (Before Footer) -->
+    <div class="max-w-4xl mx-auto mt-12 sm:mt-16">
+      <div class="ad-container rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/70 p-2 sm:p-3 shadow-sm">
+        <span class="ad-label text-slate-600 dark:text-slate-300 mb-1.5 self-start px-2">Advertisement</span>
+        <div class="w-full overflow-hidden text-center">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6854824605420161"
+               data-ad-slot="9426228178"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
+    </div>
+
   </main>
 
-  <!-- Minimal Footer -->
-  <footer class="w-full border-t border-slate-200/80 dark:border-slate-800/80 py-8 text-center text-xs text-slate-600 dark:text-slate-300 transition-colors">
+  <!-- Minimal Modern Footer -->
+  <footer class="w-full border-t border-slate-200/80 dark:border-slate-800/80 py-8 text-center text-xs text-slate-600 dark:text-slate-300 transition-colors bg-white/40 dark:bg-slate-900/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
         <div class="w-2 h-2 rounded-full bg-indigo-500"></div>
@@ -208,20 +326,20 @@
           href="https://www.linkedin.com/in/locust2001/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-1 font-medium"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-[#0077B5] dark:hover:text-[#38a8e8] transition-all font-medium"
         >
-          <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
-          LinkedIn
+          <i data-lucide="linkedin" class="w-3.5 h-3.5 text-[#0077B5]"></i>
+          <span>LinkedIn</span>
         </a>
         <span>•</span>
         <a 
           href="https://github.com/chbaede/main" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="hover:text-slate-900 dark:hover:text-white transition-colors flex items-center gap-1 font-medium"
+          class="hover:text-slate-900 dark:hover:text-white transition-colors inline-flex items-center gap-1.5 font-medium"
         >
           <i data-lucide="github" class="w-3.5 h-3.5"></i>
-          GitHub
+          <span>GitHub</span>
         </a>
       </div>
     </div>
