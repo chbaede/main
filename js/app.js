@@ -138,6 +138,8 @@ function renderServices() {
     const url = site.url.toLowerCase();
     const tagsEn = site.tags.en.map(tag => tag.toLowerCase());
     const tagsKo = site.tags.ko.map(tag => tag.toLowerCase());
+    const platformsEn = (site.platforms || []).map(p => p.name.en.toLowerCase());
+    const platformsKo = (site.platforms || []).map(p => p.name.ko.toLowerCase());
 
     return (
       titleEn.includes(query) ||
@@ -146,7 +148,9 @@ function renderServices() {
       descKo.includes(query) ||
       url.includes(query) ||
       tagsEn.some(tag => tag.includes(query)) ||
-      tagsKo.some(tag => tag.includes(query))
+      tagsKo.some(tag => tag.includes(query)) ||
+      platformsEn.some(p => p.includes(query)) ||
+      platformsKo.some(p => p.includes(query))
     );
   });
 
@@ -176,23 +180,42 @@ function renderServices() {
       .map(tag => `<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200/60 dark:border-slate-700/50">${tag}</span>`)
       .join('');
 
+    const platformsHtml = (site.platforms || []).map(p => {
+      let iconHtml = '';
+      let badgeColor = '';
+      if (p.id === 'tistory') {
+        iconHtml = `<svg class="w-2.5 h-2.5 fill-[#EB5323] flex-shrink-0" viewBox="0 0 24 24"><circle cx="12" cy="5" r="4"/><circle cx="5" cy="18" r="3.5"/><circle cx="19" cy="18" r="3.5"/></svg>`;
+        badgeColor = 'bg-orange-50 dark:bg-orange-950/40 text-orange-700 dark:text-orange-400 border-orange-200/80 dark:border-orange-800/60';
+      } else if (p.id === 'github') {
+        iconHtml = `<i data-lucide="github" class="w-2.5 h-2.5 flex-shrink-0"></i>`;
+        badgeColor = 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/60';
+      } else if (p.id === 'selfhost') {
+        iconHtml = `<i data-lucide="server" class="w-2.5 h-2.5 flex-shrink-0 text-blue-500 dark:text-blue-400"></i>`;
+        badgeColor = 'bg-blue-50 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 border-blue-200/80 dark:border-blue-800/60';
+      }
+      return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-medium border ${badgeColor}" title="${p.name[lang]}">${iconHtml}<span>${p.name[lang]}</span></span>`;
+    }).join('');
+
     card.innerHTML = `
       <!-- Top glowing gradient line -->
       <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${site.accentColor} opacity-70 group-hover:opacity-100 transition-opacity"></div>
       
       <div>
-        <div class="flex items-start justify-between gap-4 mb-4">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br ${site.accentColor} p-0.5 shadow-sm">
+        <div class="flex items-start justify-between gap-3 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br ${site.accentColor} p-0.5 shadow-sm flex-shrink-0">
             <div class="w-full h-full bg-white dark:bg-slate-900 rounded-[10px] flex items-center justify-center text-slate-800 dark:text-slate-100">
               <i data-lucide="${site.icon}" class="w-6 h-6"></i>
             </div>
           </div>
           
-          <div class="flex items-center gap-2">
-            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800/60">
+          <div class="flex flex-col items-end gap-1.5 flex-shrink-0">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800/60">
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 status-dot"></span>
               ${site.status[lang]}
             </span>
+            <div class="flex flex-wrap items-center justify-end gap-1">
+              ${platformsHtml}
+            </div>
           </div>
         </div>
 

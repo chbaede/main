@@ -12,6 +12,9 @@ const SITES_DATA = [
     url: "https://www.yocto.co.kr",
     icon: "book-open",
     accentColor: "from-violet-500 to-fuchsia-500",
+    platforms: [
+      { id: "tistory", name: { en: "Tistory", ko: "티스토리" } }
+    ],
     title: {
       en: "Yocto Blog",
       ko: "요크토 블로그 (Yocto Blog)"
@@ -40,6 +43,10 @@ const SITES_DATA = [
     url: "https://autohub.yocto.co.kr",
     icon: "car",
     accentColor: "from-blue-500 to-cyan-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } },
+      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
     title: {
       en: "AutoHub",
       ko: "오토허브 (AutoHub)"
@@ -68,6 +75,9 @@ const SITES_DATA = [
     url: "https://news.yocto.co.kr",
     icon: "newspaper",
     accentColor: "from-indigo-500 to-purple-500",
+    platforms: [
+      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
     title: {
       en: "Automotive Newsletter",
       ko: "오토모티브 뉴스레터"
@@ -96,6 +106,9 @@ const SITES_DATA = [
     url: "https://gmarket.yocto.co.kr",
     icon: "shopping-bag",
     accentColor: "from-amber-500 to-orange-500",
+    platforms: [
+      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
     title: {
       en: "German Market Deals",
       ko: "독일 마트 할인정보"
@@ -124,6 +137,9 @@ const SITES_DATA = [
     url: "https://life.yocto.co.kr/",
     icon: "sparkles",
     accentColor: "from-emerald-500 to-teal-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
     title: {
       en: "Life Toolkit",
       ko: "라이프 툴킷"
@@ -152,6 +168,9 @@ const SITES_DATA = [
     url: "https://devtools.yocto.co.kr/",
     icon: "terminal",
     accentColor: "from-rose-500 to-pink-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
     title: {
       en: "DevTools",
       ko: "개발자 도구 모음"
