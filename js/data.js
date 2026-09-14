@@ -6,6 +6,34 @@
  */
 const SITES_DATA = [
   {
+    id: "blog",
+    category: ["automotive", "lifestyle"],
+    featured: true,
+    url: "https://www.yocto.co.kr",
+    icon: "book-open",
+    accentColor: "from-violet-500 to-fuchsia-500",
+    title: {
+      en: "Yocto Blog",
+      ko: "요크토 블로그 (Yocto Blog)"
+    },
+    tagline: {
+      en: "Automotive SW & Life in Germany",
+      ko: "차량용 SW 엔지니어링 & 독일 생활기"
+    },
+    description: {
+      en: "Personal engineering and tech journal focusing on automotive software architecture, embedded systems, and real-life working and living experiences in Germany.",
+      ko: "차량용 소프트웨어 기술과 아키텍처, 임베디드 엔지니어링, 그리고 현지 독일 생활 및 생생한 현업 이야기를 기록하는 기술 블로그입니다."
+    },
+    tags: {
+      en: ["Automotive SW", "Germany", "Engineering", "Blog"],
+      ko: ["자동차SW", "독일생활", "엔지니어링", "블로그"]
+    },
+    status: {
+      en: "Live",
+      ko: "운영 중"
+    }
+  },
+  {
     id: "autohub",
     category: "automotive",
     featured: true,

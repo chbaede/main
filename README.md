@@ -17,6 +17,7 @@ A modern, fast, zero-build directory portal for the **yocto.co.kr** network, pub
 
 | Service | URL | Category |
 | :--- | :--- | :--- |
+| **Yocto Blog** | `https://www.yocto.co.kr` | Automotive SW & Life in Germany |
 | **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem |
 | **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights |
 | **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator |

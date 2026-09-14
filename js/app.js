@@ -124,7 +124,8 @@ function renderServices() {
 
   const filtered = SITES_DATA.filter(site => {
     // Category match
-    const categoryMatch = state.category === 'all' || site.category === state.category;
+    const categoryMatch = state.category === 'all' || 
+      (Array.isArray(site.category) ? site.category.includes(state.category) : site.category === state.category);
 
     // Search query match
     if (!categoryMatch) return false;
