@@ -18,11 +18,11 @@ A modern, fast, zero-build directory portal for the **yocto.co.kr** network, pub
 | Service | URL | Category | Platform |
 | :--- | :--- | :--- | :--- |
 | **Yocto Blog** | `https://www.yocto.co.kr` | Automotive SW & Life in Germany | Tistory |
-| **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem | GitHub Pages / Self-Hosted |
+| **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem | Self-Hosted |
 | **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights | Self-Hosted |
-| **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator | Self-Hosted |
-| **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages |
 | **DevTools** | `https://devtools.yocto.co.kr/` | Essential Developer Utilities | GitHub Pages |
+| **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages |
+| **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator | Self-Hosted |
 
 ---
 

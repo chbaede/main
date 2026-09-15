@@ -1,12 +1,12 @@
-/* Modern Custom Enhancements & Animations */
-
-/* Smooth Theme Transitions */
+/* Smooth Theme Transitions & Prevent Scrollbar Jitter */
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  scrollbar-gutter: stable both-edges;
 }
 
 body {
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
@@ -26,9 +26,9 @@ body {
   border-bottom-color: rgba(226, 232, 240, 0.8);
 }
 
-/* Card Hover Elevation & Subtle Glow */
+/* Card Hover Elevation & Subtle Glow (Explicit transitions prevent layout reflow shake) */
 .service-card {
-  transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.24s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.24s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.24s ease, background-color 0.24s ease;
   will-change: transform, box-shadow;
 }
 
@@ -84,7 +84,15 @@ body {
   animation: live-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar - Smooth Cross-Platform */
+html.dark {
+  scrollbar-color: rgba(71, 85, 105, 0.6) transparent;
+}
+
+html.light {
+  scrollbar-color: rgba(203, 213, 225, 0.8) transparent;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -94,11 +102,13 @@ body {
   background: transparent;
 }
 
+html.dark::-webkit-scrollbar-thumb,
 .dark ::-webkit-scrollbar-thumb {
   background: rgba(71, 85, 105, 0.6);
   border-radius: 4px;
 }
 
+html.light::-webkit-scrollbar-thumb,
 .light ::-webkit-scrollbar-thumb {
   background: rgba(203, 213, 225, 0.8);
   border-radius: 4px;

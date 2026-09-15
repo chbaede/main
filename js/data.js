@@ -17,7 +17,7 @@ const SITES_DATA = [
     ],
     title: {
       en: "Yocto Blog",
-      ko: "요크토 블로그 (Yocto Blog)"
+      ko: "Yocto 블로그"
     },
     tagline: {
       en: "Automotive SW & Life in Germany",
@@ -44,7 +44,6 @@ const SITES_DATA = [
     icon: "car",
     accentColor: "from-blue-500 to-cyan-500",
     platforms: [
-      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } },
       { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
     ],
     title: {
@@ -100,30 +99,30 @@ const SITES_DATA = [
     }
   },
   {
-    id: "gmarket",
-    category: "lifestyle",
+    id: "devtools",
+    category: "tools",
     featured: false,
-    url: "https://gmarket.yocto.co.kr",
-    icon: "shopping-bag",
-    accentColor: "from-amber-500 to-orange-500",
+    url: "https://devtools.yocto.co.kr/",
+    icon: "terminal",
+    accentColor: "from-rose-500 to-pink-500",
     platforms: [
-      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
     ],
     title: {
-      en: "German Market Deals",
-      ko: "독일 마트 할인정보"
+      en: "DevTools",
+      ko: "개발자 도구 모음"
     },
     tagline: {
-      en: "Supermarket Flyer & Sale Aggregator",
-      ko: "독일 슈퍼마켓 주간 세일 모아보기"
+      en: "Essential Developer Utilities",
+      ko: "엔지니어링 필수 웹 도구"
     },
     description: {
-      en: "Smart price tracking and weekly promotional flyer comparisons across major German supermarket chains to help you shop smarter and save money.",
-      ko: "독일 주요 슈퍼마켓의 주간 할인 전단지와 특가 상품 정보를 한눈에 비교하고 실속 있게 장을 볼 수 있도록 도와주는 스마트 쇼핑 가이드입니다."
+      en: "A robust suite of quick web-based developer tools including code formatters, encoders/decoders, string utilities, and time converters built for speed.",
+      ko: "포맷터, 인코더/디코더, 텍스트 변환기, 타임스탬프 변환 등 엔지니어의 일상 개발 효율을 극대화하는 맞춤형 웹 도구 모음입니다."
     },
     tags: {
-      en: ["Germany", "Discounts", "Supermarket", "Shopping"],
-      ko: ["독일생활", "마트할인", "전단지", "세일정보"]
+      en: ["Engineering", "Formatters", "Converters", "DevTools"],
+      ko: ["개발도구", "변환기", "포맷터", "엔지니어링"]
     },
     status: {
       en: "Live",
@@ -162,30 +161,30 @@ const SITES_DATA = [
     }
   },
   {
-    id: "devtools",
-    category: "tools",
+    id: "gmarket",
+    category: "lifestyle",
     featured: false,
-    url: "https://devtools.yocto.co.kr/",
-    icon: "terminal",
-    accentColor: "from-rose-500 to-pink-500",
+    url: "https://gmarket.yocto.co.kr",
+    icon: "shopping-bag",
+    accentColor: "from-amber-500 to-orange-500",
     platforms: [
-      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
     ],
     title: {
-      en: "DevTools",
-      ko: "개발자 도구 모음"
+      en: "German Market Deals",
+      ko: "독일 마트 할인정보"
     },
     tagline: {
-      en: "Essential Developer Utilities",
-      ko: "엔지니어링 필수 웹 도구"
+      en: "Supermarket Flyer & Sale Aggregator",
+      ko: "독일 슈퍼마켓 주간 세일 모아보기"
     },
     description: {
-      en: "A robust suite of quick web-based developer tools including code formatters, encoders/decoders, string utilities, and time converters built for speed.",
-      ko: "포맷터, 인코더/디코더, 텍스트 변환기, 타임스탬프 변환 등 엔지니어의 일상 개발 효율을 극대화하는 맞춤형 웹 도구 모음입니다."
+      en: "Smart price tracking and weekly promotional flyer comparisons across major German supermarket chains to help you shop smarter and save money.",
+      ko: "독일 주요 슈퍼마켓의 주간 할인 전단지와 특가 상품 정보를 한눈에 비교하고 실속 있게 장을 볼 수 있도록 도와주는 스마트 쇼핑 가이드입니다."
     },
     tags: {
-      en: ["Engineering", "Formatters", "Converters", "DevTools"],
-      ko: ["개발도구", "변환기", "포맷터", "엔지니어링"]
+      en: ["Germany", "Discounts", "Supermarket", "Shopping"],
+      ko: ["독일생활", "마트할인", "전단지", "세일정보"]
     },
     status: {
       en: "Live",
