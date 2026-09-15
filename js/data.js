@@ -44,7 +44,7 @@ const SITES_DATA = [
     icon: "car",
     accentColor: "from-blue-500 to-cyan-500",
     platforms: [
-      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
     ],
     title: {
       en: "AutoHub",
