@@ -161,6 +161,37 @@ const SITES_DATA = [
     }
   },
   {
+    id: "german",
+    category: "lifestyle",
+    featured: false,
+    url: "https://german.yocto.co.kr",
+    icon: "landmark",
+    accentColor: "from-amber-500 via-red-500 to-yellow-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    title: {
+      en: "German Life Toolkit",
+      ko: "독일 생활 툴킷"
+    },
+    tagline: {
+      en: "Smart Tools for Life in Germany",
+      ko: "독일 생활 & 정착 필수 계산기 및 가이드"
+    },
+    description: {
+      en: "Essential suite of private calculators and reference tools for life in Germany: Brutto-Netto salary 2026, rent & Nebenkosten, Kindergeld, state public holidays, and expat guides.",
+      ko: "독일 실수령액(Brutto-Netto) 계산기, 임대료 및 관리비 계산, 킨더겔트 타임라인, 주별 공휴일 및 방학 일정 등 독일 생활에 꼭 필요한 실용 도구 모음입니다."
+    },
+    tags: {
+      en: ["Germany", "Salary Calculator", "Holidays", "Living"],
+      ko: ["독일생활", "월급계산기", "실수령액", "공휴일"]
+    },
+    status: {
+      en: "Live",
+      ko: "서비스 중"
+    }
+  },
+  {
     id: "gmarket",
     category: "lifestyle",
     featured: false,

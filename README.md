@@ -22,6 +22,7 @@ A modern, fast, zero-build directory portal for the **yocto.co.kr** network, pub
 | **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights | Self-Hosted |
 | **DevTools** | `https://devtools.yocto.co.kr/` | Essential Developer Utilities | GitHub Pages |
 | **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages |
+| **German Life Toolkit** | `https://german.yocto.co.kr/` | Smart Tools for Life in Germany | GitHub Pages |
 | **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator | Self-Hosted |
 
 ---
