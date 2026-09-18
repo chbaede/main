@@ -99,6 +99,37 @@ const SITES_DATA = [
     }
   },
   {
+    id: "ainews",
+    category: "tools",
+    featured: false,
+    url: "https://ainews.yocto.co.kr/",
+    icon: "bot",
+    accentColor: "from-violet-500 to-indigo-500",
+    platforms: [
+      { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
+    title: {
+      en: "AI Newsletter",
+      ko: "AI 뉴스레터"
+    },
+    tagline: {
+      en: "Curated AI & LLM Insights",
+      ko: "AI 및 LLM 기술 트렌드 뉴스레터"
+    },
+    description: {
+      en: "A curated newsletter covering the latest breakthroughs in artificial intelligence, large language models, generative AI tools, and applied AI engineering.",
+      ko: "인공지능, 대형 언어 모델(LLM), 생성형 AI 도구 및 실무 AI 엔지니어링 분야의 최신 동향을 선별하여 전달하는 AI 전문 뉴스레터입니다."
+    },
+    tags: {
+      en: ["AI", "LLM", "Newsletter", "Generative AI"],
+      ko: ["인공지능", "LLM", "뉴스레터", "생성형AI"]
+    },
+    status: {
+      en: "Live",
+      ko: "서비스 중"
+    }
+  },
+  {
     id: "devtools",
     category: "tools",
     featured: false,

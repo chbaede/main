@@ -20,6 +20,7 @@ A modern, fast, zero-build directory portal for the **yocto.co.kr** network, pub
 | **Yocto Blog** | `https://www.yocto.co.kr` | Automotive SW & Life in Germany | Tistory |
 | **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem | GitHub Pages |
 | **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights | Self-Hosted |
+| **AI Newsletter** | `https://ainews.yocto.co.kr/` | Curated AI & LLM Insights | Self-Hosted |
 | **DevTools** | `https://devtools.yocto.co.kr/` | Essential Developer Utilities | GitHub Pages |
 | **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages |
 | **German Life Toolkit** | `https://german.yocto.co.kr/` | Smart Tools for Life in Germany | GitHub Pages |
