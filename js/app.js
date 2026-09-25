@@ -249,8 +249,8 @@ function renderServices() {
           rel="noopener noreferrer" 
           class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/70 hover:bg-indigo-600 dark:hover:bg-indigo-600 text-slate-700 dark:text-slate-200 hover:text-white dark:hover:text-white text-xs font-semibold tracking-wide transition-all duration-200 border border-slate-200 dark:border-slate-700/60 hover:border-transparent group/link cursor-pointer"
         >
-          <span class="truncate font-mono text-[11px] opacity-80 group-hover/link:opacity-100">${site.url.replace(/^https?:\/\//, '')}</span>
-          <span class="flex items-center gap-1 pl-2">
+          <span class="truncate min-w-0 font-mono text-[11px] opacity-80 group-hover/link:opacity-100">${site.url.replace(/^https?:\/\//, '')}</span>
+          <span class="flex items-center gap-1 pl-2 shrink-0 whitespace-nowrap">
             <span>${t.visitSite}</span>
             <i data-lucide="arrow-up-right" class="w-4 h-4 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"></i>
           </span>
