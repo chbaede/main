@@ -68,6 +68,37 @@ const SITES_DATA = [
     }
   },
   {
+    id: "autometrics",
+    category: "automotive",
+    featured: true,
+    url: "https://autometrics.yocto.co.kr/",
+    icon: "bar-chart-2",
+    accentColor: "from-emerald-500 to-teal-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    title: {
+      en: "AutoMetrics",
+      ko: "오토메트릭스 (AutoMetrics)"
+    },
+    tagline: {
+      en: "Global OEM Performance & Investment Intelligence",
+      ko: "글로벌 완성차 OEM 실적 및 투자 인텔리전스"
+    },
+    description: {
+      en: "Rigorous data sourced exclusively from official quarterly filings, annual reports, and earnings calls — delivering OEM vehicle sales, EV share, operating margins, and annual guidance in one dashboard.",
+      ko: "공식 분기 재무제표, 연간 사업보고서, 실적 발표회(Earnings Call) 자료를 엄격하게 수집하여 분석한 완성차 판매량, 전동화 점유율, 영업이익률 및 연간 가이던스 대시보드."
+    },
+    tags: {
+      en: ["OEM", "Financials", "EV", "Dashboard", "Earnings"],
+      ko: ["완성차", "재무실적", "전동화", "대시보드", "어닝콜"]
+    },
+    status: {
+      en: "Live",
+      ko: "서비스 중"
+    }
+  },
+  {
     id: "news",
     category: "automotive",
     featured: true,
