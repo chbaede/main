@@ -99,6 +99,37 @@ const SITES_DATA = [
     }
   },
   {
+    id: "electric",
+    category: "automotive",
+    featured: true,
+    url: "https://electric.yocto.co.kr/",
+    icon: "zap",
+    accentColor: "from-sky-500 to-emerald-500",
+    platforms: [
+      { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    title: {
+      en: "EV Global Hub",
+      ko: "글로벌 전기차 비교 (EV Global Hub)"
+    },
+    tagline: {
+      en: "Global EV Sales, 4-Region Pricing & Spec Comparison",
+      ko: "글로벌 전기차 판매량·4개국 가격·성능 비교 대시보드"
+    },
+    description: {
+      en: "Compare global best-selling and latest electric vehicles across Korea, Germany, the US, and China — featuring quarterly sales rankings, multi-currency price conversion, and 1:1 spec comparisons.",
+      ko: "한·독·미·중 4대 권역 핵심 전기차의 분기별 글로벌 판매량 순위, 4개국 출시 가격 실시간 통화 환산, 주행거리·충전 속도 등 핵심 제원을 1:1로 정밀 비교하는 대시보드입니다."
+    },
+    tags: {
+      en: ["EV", "Comparison", "Pricing", "Specs", "Sales"],
+      ko: ["전기차", "비교분석", "글로벌가격", "제원비교", "판매량"]
+    },
+    status: {
+      en: "Live",
+      ko: "서비스 중"
+    }
+  },
+  {
     id: "news",
     category: "automotive",
     featured: true,
