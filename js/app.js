@@ -145,6 +145,8 @@ function renderServices() {
     const tagsKo = site.tags.ko.map(tag => tag.toLowerCase());
     const platformsEn = (site.platforms || []).map(p => p.name.en.toLowerCase());
     const platformsKo = (site.platforms || []).map(p => p.name.ko.toLowerCase());
+    const langsEn = (site.languages || []).map(l => l.name.en.toLowerCase());
+    const langsKo = (site.languages || []).map(l => l.name.ko.toLowerCase());
 
     return (
       titleEn.includes(query) ||
@@ -155,7 +157,9 @@ function renderServices() {
       tagsEn.some(tag => tag.includes(query)) ||
       tagsKo.some(tag => tag.includes(query)) ||
       platformsEn.some(p => p.includes(query)) ||
-      platformsKo.some(p => p.includes(query))
+      platformsKo.some(p => p.includes(query)) ||
+      langsEn.some(l => l.includes(query)) ||
+      langsKo.some(l => l.includes(query))
     );
   });
 
@@ -201,6 +205,11 @@ function renderServices() {
       return `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-medium border ${badgeColor}" title="${p.name[lang]}">${iconHtml}<span>${p.name[lang]}</span></span>`;
     }).join('');
 
+    const languagesLabel = (site.languages || []).map(l => l.name[lang]).join(', ');
+    const languagesHtml = languagesLabel
+      ? `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-medium bg-indigo-50/80 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 border border-indigo-200/80 dark:border-indigo-800/60" title="${languagesLabel}"><i data-lucide="globe" class="w-2.5 h-2.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400"></i><span>${languagesLabel}</span></span>`
+      : '';
+
     card.innerHTML = `
       <!-- Top glowing gradient line -->
       <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${site.accentColor} opacity-70 group-hover:opacity-100 transition-opacity"></div>
@@ -220,6 +229,7 @@ function renderServices() {
             </span>
             <div class="flex flex-wrap items-center justify-end gap-1">
               ${platformsHtml}
+              ${languagesHtml}
             </div>
           </div>
         </div>

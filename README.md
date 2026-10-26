@@ -15,18 +15,18 @@ A modern, fast, zero-build directory portal for the **yocto.co.kr** network, pub
 
 ## Registered Services
 
-| Service | URL | Category | Platform |
-| :--- | :--- | :--- | :--- |
-| **Yocto Blog** | `https://www.yocto.co.kr` | Automotive SW & Life in Germany | Tistory |
-| **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem | GitHub Pages |
-| **AutoMetrics** | `https://autometrics.yocto.co.kr/` | Global OEM Performance & Investment Intelligence | GitHub Pages |
-| **EV Global Hub** | `https://electric.yocto.co.kr/` | Global EV Sales, 4-Region Pricing & Spec Comparison | GitHub Pages |
-| **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights | Self-Hosted |
-| **AI Newsletter** | `https://ainews.yocto.co.kr/` | Curated AI & LLM Insights | Self-Hosted |
-| **DevTools** | `https://devtools.yocto.co.kr/` | Essential Developer Utilities | GitHub Pages |
-| **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages |
-| **German Life Toolkit** | `https://german.yocto.co.kr/` | Smart Tools for Life in Germany | GitHub Pages |
-| **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator | Self-Hosted |
+| Service | URL | Category | Platform | Languages |
+| :--- | :--- | :--- | :--- | :--- |
+| **Yocto Blog** | `https://www.yocto.co.kr` | Automotive SW & Life in Germany | Tistory | KO |
+| **AutoHub** | `https://autohub.yocto.co.kr` | Automotive Software Ecosystem | GitHub Pages | KO, EN |
+| **AutoMetrics** | `https://autometrics.yocto.co.kr/` | Global OEM Performance & Investment Intelligence | GitHub Pages | KO, EN |
+| **EV Global Hub** | `https://electric.yocto.co.kr/` | Global EV Sales, 4-Region Pricing & Spec Comparison | GitHub Pages | KO, EN |
+| **Automotive Newsletter** | `https://news.yocto.co.kr` | Mobility & Tech Insights | Self-Hosted | KO, EN |
+| **AI Newsletter** | `https://ainews.yocto.co.kr/` | Curated AI & LLM Insights | Self-Hosted | KO, EN |
+| **DevTools** | `https://devtools.yocto.co.kr/` | Essential Developer Utilities | GitHub Pages | KO, EN |
+| **Life Toolkit** | `https://life.yocto.co.kr/` | Everyday Utility & Life Helpers | GitHub Pages | KO, EN |
+| **German Life Toolkit** | `https://german.yocto.co.kr/` | Smart Tools for Life in Germany | GitHub Pages | KO, EN, DE |
+| **German Market Deals** | `https://gmarket.yocto.co.kr` | Supermarket Flyer & Sale Aggregator | Self-Hosted | KO, EN |
 
 ---
 

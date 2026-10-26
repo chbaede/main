@@ -15,6 +15,9 @@ const SITES_DATA = [
     platforms: [
       { id: "tistory", name: { en: "Tistory", ko: "티스토리" } }
     ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } }
+    ],
     title: {
       en: "Yocto Blog",
       ko: "Yocto 블로그"
@@ -45,6 +48,10 @@ const SITES_DATA = [
     accentColor: "from-blue-500 to-cyan-500",
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
     ],
     title: {
       en: "AutoHub",
@@ -77,6 +84,10 @@ const SITES_DATA = [
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
     ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
+    ],
     title: {
       en: "AutoMetrics",
       ko: "오토메트릭스 (AutoMetrics)"
@@ -107,6 +118,10 @@ const SITES_DATA = [
     accentColor: "from-sky-500 to-emerald-500",
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
     ],
     title: {
       en: "EV Global Hub",
@@ -139,6 +154,10 @@ const SITES_DATA = [
     platforms: [
       { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
     ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
+    ],
     title: {
       en: "Automotive Newsletter",
       ko: "오토모티브 뉴스레터"
@@ -169,6 +188,10 @@ const SITES_DATA = [
     accentColor: "from-violet-500 to-indigo-500",
     platforms: [
       { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
     ],
     title: {
       en: "AI Newsletter",
@@ -201,6 +224,10 @@ const SITES_DATA = [
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
     ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
+    ],
     title: {
       en: "DevTools",
       ko: "개발자 도구 모음"
@@ -231,6 +258,10 @@ const SITES_DATA = [
     accentColor: "from-emerald-500 to-teal-500",
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
+    ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
     ],
     title: {
       en: "Life Toolkit",
@@ -263,6 +294,11 @@ const SITES_DATA = [
     platforms: [
       { id: "github", name: { en: "GitHub Pages", ko: "GitHub Pages" } }
     ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } },
+      { id: "de", name: { en: "German", ko: "독일어" } }
+    ],
     title: {
       en: "German Life Toolkit",
       ko: "독일 생활 툴킷"
@@ -293,6 +329,10 @@ const SITES_DATA = [
     accentColor: "from-amber-500 to-orange-500",
     platforms: [
       { id: "selfhost", name: { en: "Self-Hosted", ko: "자체 호스팅" } }
+    ],
+    languages: [
+      { id: "ko", name: { en: "Korean", ko: "한국어" } },
+      { id: "en", name: { en: "English", ko: "영어" } }
     ],
     title: {
       en: "German Market Deals",
